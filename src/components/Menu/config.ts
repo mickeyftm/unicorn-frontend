@@ -25,11 +25,11 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: '/farms',
   },
-  // {
-  //   label: 'Nests',
-  //   icon: 'PoolIcon',
-  //   href: '/nests',
-  // },
+  {
+    label: 'Nests',
+    icon: 'PoolIcon',
+    href: '/nests',
+  },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/squirtlefinance',
+        href: ' https://github.com/SalmonSwap/Contracts',
       },
       {
         label: 'Docs',
-        href: 'https://squirtle-finance.gitbook.io/squirtle-finance/',
+        href: 'https://docs.salmonswapper.com',
       },
       {
         label: 'Blog',
-        href: 'https://squirtle-finance.medium.com/'
+        href: 'https://salmonswap.medium.com/the-beauty-of-the-salmon-a57589db0a76'
       },
     ],
   },
