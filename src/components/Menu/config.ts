@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: ' https://github.com/SalmonSwap/Contracts',
+        href: 'https://github.com/SalmonSwap/Contracts',
       },
       {
         label: 'Docs',
