@@ -29,22 +29,12 @@ const config: MenuEntry[] = [
     label: 'Nests',
     icon: 'PoolIcon',
     href: '/nests',
+  },  
+  {
+    label: 'Price Chart',
+    icon: 'InfoIcon',
+    href: 'https://poocoin.app/',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
   {
     label: 'More',
     icon: 'MoreIcon',
