@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SAL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '',
+      56: '', 
     },
     tokenSymbol: 'SAL',
     tokenAddresses: {
       97: '',
-      56: '0x48c8a1706F7EA05199244b69498F5ac59aDa5262',
+      56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SAL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '',
+      56: '', 
     },
     tokenSymbol: 'SAL',
     tokenAddresses: {
       97: '',
-      56: '0x48c8a1706F7EA05199244b69498F5ac59aDa5262',
+      56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -158,7 +158,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'SAL',
     tokenAddresses: {
       97: '',
-      56: '0x48c8a1706F7EA05199244b69498F5ac59aDa5262',
+      56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
