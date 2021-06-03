@@ -20,15 +20,15 @@ const Wrapper = styled.div`
 
 const ExpandableSectionButton: React.FC<ExpandableSectionButtonProps> = ({ onClick, expanded }) => {
   return (
-    // <Wrapper aria-label="Hide or show expandable content" role="button" onClick={() => onClick()}>
-    //   <Text color="primary" bold>
-    //     {expanded ? 'Hide' : 'Details'}
-    //   </Text>
-    //   {expanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
-    // </Wrapper>
-    <Text color="primary" bold>
-        Locked till launch
-    </Text>
+    <Wrapper aria-label="Hide or show expandable content" role="button" onClick={() => onClick()}>
+      <Text color="primary" bold>
+        {expanded ? 'Hide' : 'Details'}
+      </Text>
+      {expanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
+    </Wrapper>
+    // <Text color="primary" bold>
+    //     Locked till launch
+    // </Text>
   )
 }
 

@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SAL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '', 
+      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', 
     },
     tokenSymbol: 'SAL',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SAL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '', 
+      56: '0x63c16e5ba172ee0ce720f0dcceef94cd19ab18bf', 
     },
     tokenSymbol: 'SAL',
     tokenAddresses: {
