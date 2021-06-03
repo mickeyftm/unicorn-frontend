@@ -34,6 +34,11 @@ const config: MenuEntry[] = [
     label: 'Price Chart',
     icon: 'InfoIcon',
     href: 'https://poocoin.app/tokens/0x1f0548f4f6350e5c853ce8e0af60a5fbe149b228',
+  },  
+  {
+    label: 'Farm Block',
+    icon: 'SunIcon',
+    href: 'https://bscscan.com/block/countdown/7988888',
   },
   {
     label: 'More',
