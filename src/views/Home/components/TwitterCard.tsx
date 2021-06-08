@@ -37,7 +37,7 @@ const TwitterCard = () => {
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'SalmonSwapper'
+            screenName: 'unicorn_fi'
           }}
           options={{
             height: '300',

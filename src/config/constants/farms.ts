@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'UNIC-BUSD LP',
+    lpSymbol: 'ACRUX-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', 
     },
-    tokenSymbol: 'UNIC',
+    tokenSymbol: 'ACRUX',
     tokenAddresses: {
       97: '',
       56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
@@ -21,12 +21,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'UNIC-BNB LP',
+    lpSymbol: 'ACRUX-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x63c16e5ba172ee0ce720f0dcceef94cd19ab18bf', 
     },
-    tokenSymbol: 'UNIC',
+    tokenSymbol: 'ACRUX',
     tokenAddresses: {
       97: '',
       56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
@@ -200,12 +200,12 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'UNIC',
+    lpSymbol: 'ACRUX',
     lpAddresses: {
       97: '',
-      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', // UNIC-BUSD LP
+      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', // ACRUX-BUSD LP
     },
-    tokenSymbol: 'UNIC',
+    tokenSymbol: 'ACRUX',
     tokenAddresses: {
       97: '',
       56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
@@ -220,7 +220,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', // UNIC-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', // ACRUX-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {

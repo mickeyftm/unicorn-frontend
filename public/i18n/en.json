@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total UNIC burned since launch"
+        "text": "Total ACRUX burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn UNIC"
+        "text": "Stake LP tokens to earn ACRUX"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake UNIC"
+        "text": "Stake ACRUX"
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake UNIC tokens, the contract will automatically harvest UNIC rewards for you!"
+        "text": "Every time you stake and unstake ACRUX tokens, the contract will automatically harvest ACRUX rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Unicorn price"
+        "text": "Acrux price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 UNIC = 1 SYRUP"
+        "text": "1 ACRUX = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of UNIC block emissions each day (10 UNIC per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of ACRUX block emissions each day (10 ACRUX per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% UNIC"
+        "text": "%num% ACRUX"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend UNIC to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend ACRUX to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% UNIC Available"
+        "text": "%num% ACRUX Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 UNIC"
+        "text": "Your amount must be a multiple of 10 ACRUX"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 UNIC"
+        "text": "1 Ticket = 10 ACRUX"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your UNIC cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your ACRUX cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "UNIC prizes to be claimed"
+        "text": "ACRUX prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve UNIC"
+        "text": "Approve ACRUX"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of UNIC block emissions each day (10 UNIC per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of ACRUX block emissions each day (10 ACRUX per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using UNIC-BNB LP tokens, which means you need to stake equal amounts of UNIC and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using ACRUX-BNB LP tokens, which means you need to stake equal amounts of ACRUX and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get UNIC-BNB LP >"
+        "text": "Get ACRUX-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Unicorn DeFi burns the UNIC."
+        "text": "The project gets the BNB, Acrux DeFi burns the ACRUX."
       }
     },
     {
@@ -597,7 +597,7 @@
     {
       "data": {
         "stringId": 514,
-        "text": "Launch your project with Unicorn DeFi, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
+        "text": "Launch your project with Acrux DeFi, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Unicorn Stats"
+        "text": "Acrux Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New UNIC\/block"
+        "text": "New ACRUX\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "UNIC to Harvest"
+        "text": "ACRUX to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "UNIC in Wallet"
+        "text": "ACRUX in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting UNIC"
+        "text": "Collecting ACRUX"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "UNIC to Collect"
+        "text": "ACRUX to Collect"
       }
     },
     {
@@ -753,7 +753,7 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Unicorn DeFi"
+        "text": "Acrux DeFi"
       }
     },
     {
@@ -765,7 +765,7 @@
     {
       "data": {
         "stringId": 580,
-        "text": "Stake UNIC to earn new tokens."
+        "text": "Stake ACRUX to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "UNIC to burn (USD)"
+        "text": "ACRUX to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest UNIC rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest ACRUX rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy UNIC and BNB tokens"
+        "text": "Buy ACRUX and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get UNIC-BNB LP tokens by adding UNIC and BNB liquidity"
+        "text": "Get ACRUX-BNB LP tokens by adding ACRUX and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your UNIC-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your ACRUX-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for UNIC, or keep for your collection!"
+        "text": "Trade in for ACRUX, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive UNIC, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive ACRUX, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a UNIC value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a ACRUX value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for UNIC"
+        "text": "Trade in for ACRUX"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn UNIC"
+        "text": "Stake LP tokens to earn ACRUX"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The UNIC Lottery"
+        "text": "The ACRUX Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with UNIC"
+        "text": "Buy tickets with ACRUX"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback UNIC"
+        "text": "Deposit Fee will be used to buyback ACRUX"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn UNIC"
+        "text": "Stake tokens to earn ACRUX"
       }
     },
     {

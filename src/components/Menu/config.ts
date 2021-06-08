@@ -50,7 +50,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://docs.salmonswapper.com',
+        href: 'https://docs.acruxdefi.com/',
       },
       {
         label: 'Blog',
