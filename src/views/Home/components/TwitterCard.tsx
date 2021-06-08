@@ -31,7 +31,7 @@ const TwitterCard = () => {
   return (
     <StyledTwitterCard>
       <CardBody>
-        <Heading size="xl" mb="24px">
+        <Heading size="xl" mb="20px">
           {TranslateString(10003, 'Announcements')}
         </Heading>
         <Timeline
@@ -40,7 +40,7 @@ const TwitterCard = () => {
             screenName: 'unicorn_fi'
           }}
           options={{
-            height: '300',
+            height: '250',
             chrome: "noheader, nofooter",
             width: "400"
           }}

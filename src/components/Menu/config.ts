@@ -46,7 +46,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/SalmonSwap/Contracts',
+        href: '',
       },
       {
         label: 'Docs',
@@ -54,7 +54,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://salmonswap.medium.com/the-beauty-of-the-salmon-a57589db0a76'
+        href: ''
       },
     ],
   },

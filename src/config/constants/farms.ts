@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ACRUX-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', 
+      56: '', 
     },
     tokenSymbol: 'ACRUX',
     tokenAddresses: {
       97: '',
-      56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
+      56: '0x62a6eC9F76e4c5D7a8a172f9A984eaaa880A1Ce0',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ACRUX-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x63c16e5ba172ee0ce720f0dcceef94cd19ab18bf', 
+      56: '', 
     },
     tokenSymbol: 'ACRUX',
     tokenAddresses: {
       97: '',
-      56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
+      56: '0x62a6eC9F76e4c5D7a8a172f9A984eaaa880A1Ce0',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -203,12 +203,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ACRUX',
     lpAddresses: {
       97: '',
-      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', // ACRUX-BUSD LP
+      56: '', // ACRUX-BUSD LP
     },
     tokenSymbol: 'ACRUX',
     tokenAddresses: {
       97: '',
-      56: '0x1f0548F4f6350E5c853CE8e0AF60a5fBe149b228',
+      56: '0x62a6eC9F76e4c5D7a8a172f9A984eaaa880A1Ce0',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -220,7 +220,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x2dc1d4b56d9d2fdb06d07daf604883046d7e57ad', // ACRUX-BUSD LP (BUSD-BUSD will ignore)
+      56: '', // ACRUX-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {

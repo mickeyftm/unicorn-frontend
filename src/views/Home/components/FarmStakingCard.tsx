@@ -20,7 +20,7 @@ const StyledFarmStakingCard = styled(Card)`
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
-  background-size: 79%;
+  background-size: 85%;
 `
 
 const Block = styled.div`
@@ -28,16 +28,17 @@ const Block = styled.div`
 `
 
 const CardImage = styled.img`
-  margin-bottom: 16px;
+  margin-bottom: 50px;
 `
 
 const Label = styled.div`
   color: ${({ theme }) => theme.colors.textSubtle};
   font-size: 14px;
+  margin-top: 0px;
 `
 
 const Actions = styled.div`
-  margin-top: 24px;
+  margin-top: 50px;
 `
 
 const FarmedStakingCard = () => {
@@ -71,20 +72,24 @@ const FarmedStakingCard = () => {
   return (
     <StyledFarmStakingCard isActive>
       <CardBody>
-        <Heading size="xl" mb="24px">
-          {TranslateString(542, 'Farms & Staking')}
-        </Heading>
-        <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
-        <Block>
-          <Label>{TranslateString(544, 'SAL to Harvest')}</Label>
-          <CakeHarvestBalance earningsSum={earningsSum} />
-          <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
-        </Block>
-        <Block>
-          <Label>{TranslateString(546, 'SAL in Wallet')}</Label>
-          <CakeWalletBalance cakeBalance={cakeBalance} />
-          <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
-        </Block>
+        <div style={{display: "flex", justifyContent: "space-between", marginLeft: "auto", marginRight: "auto"}}>
+          <Heading size="xl" mb="24px">
+            {TranslateString(542, 'Farms & Staking')}
+          </Heading>
+          <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
+        </div>
+        <div style={{display: "flex", justifyContent: "space-between", marginLeft: "auto", marginRight: "auto"}}>
+          <Block>
+            <Label>{TranslateString(544, 'ACRUX to Harvest')}</Label>
+            <CakeHarvestBalance earningsSum={earningsSum} />
+            <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
+          </Block>
+          <Block>
+            <Label>{TranslateString(546, 'ACRUX in Wallet')}</Label>
+            <CakeWalletBalance cakeBalance={cakeBalance} />
+            <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
+          </Block>
+        </div>
         <Actions>
           {account ? (
             <Button
@@ -94,7 +99,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting SAL')
+                ? TranslateString(548, 'Collecting ACRUX')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (
