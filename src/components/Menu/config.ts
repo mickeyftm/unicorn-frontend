@@ -22,39 +22,35 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Farms',
-    icon: 'FarmIcon',
+    icon: 'IfoIcon',
     href: '/farms',
   },
   {
     label: 'Nests',
-    icon: 'PoolIcon',
+    icon: 'NftIcon',
     href: '/nests',
   },  
   {
     label: 'Price Chart',
     icon: 'InfoIcon',
-    href: '',
-  },  
-  {
-    label: 'Farm Block',
-    icon: 'SunIcon',
-    href: '',
+    href: 'https://poocoin.app/tokens/0x62a6ec9f76e4c5d7a8a172f9a984eaaa880a1ce0',
   },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      {
-        label: 'Github',
-        href: '',
-      },
+      // {
+      //   label: 'Github',
+      //   href: '',
+      // },
+
       {
         label: 'Docs',
         href: 'https://docs.acruxdefi.com/',
       },
       {
         label: 'Blog',
-        href: ''
+        href: 'https://udefi58.medium.com/alpha-crucis-a7de72ce24cd'
       },
     ],
   },
