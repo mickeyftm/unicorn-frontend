@@ -70,7 +70,7 @@ const FarmedStakingCard = () => {
   // toChange
 
   return (
-    <StyledFarmStakingCard isActive>
+    <StyledFarmStakingCard >
       <CardBody>
         <div style={{display: "flex", justifyContent: "space-between", marginLeft: "auto", marginRight: "auto"}}>
           <Heading size="xl" mb="24px">
