@@ -22,7 +22,7 @@ const useFarmsWithBalance = () => {
     const fetchBalances = async () => {
       const calls = farmsConfig.map((farm) => ({
         address: getMasterChefAddress(),
-        name: 'pendingSal',
+        name: 'pendingAcrux',
         params: [farm.pid, account],
       }))
 
