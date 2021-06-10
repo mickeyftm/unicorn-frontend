@@ -47,7 +47,7 @@ const FarmedStakingCard = () => {
   const TranslateString = useI18n()
   const farmsWithBalance = useFarmsWithBalance()
   const cakeBalance = getBalanceNumber(useTokenBalance(getCakeAddress()))
-  const eggPrice = usePriceCakeBusd().toNumber()
+  const acruxPrice = usePriceCakeBusd().toNumber()
   const allEarnings = useAllEarnings()
   const earningsSum = allEarnings.reduce((accum, earning) => {
     return accum + new BigNumber(earning).div(new BigNumber(10).pow(18)).toNumber()
@@ -70,7 +70,7 @@ const FarmedStakingCard = () => {
   // toChange
 
   return (
-    <StyledFarmStakingCard >
+    <StyledFarmStakingCard>
       <CardBody>
         <div style={{display: "flex", justifyContent: "space-between", marginLeft: "auto", marginRight: "auto"}}>
           <Heading size="xl" mb="24px">
@@ -82,12 +82,12 @@ const FarmedStakingCard = () => {
           <Block>
             <Label>{TranslateString(544, 'ACRUX to Harvest')}</Label>
             <CakeHarvestBalance earningsSum={earningsSum} />
-            <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
+            <Label>~${(acruxPrice * earningsSum).toFixed(2)}</Label>
           </Block>
           <Block>
             <Label>{TranslateString(546, 'ACRUX in Wallet')}</Label>
             <CakeWalletBalance cakeBalance={cakeBalance} />
-            <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
+            <Label>~${(acruxPrice * cakeBalance).toFixed(2)}</Label>
           </Block>
         </div>
         <Actions>
