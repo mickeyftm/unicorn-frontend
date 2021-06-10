@@ -196,25 +196,9 @@ const farms: FarmConfig[] = [
   },
 
 // Below are for NESTS(only enter 56:tokenAddr)
+
   {
     pid: 12,
-    risk: 5,
-    isTokenOnly: true,
-    lpSymbol: 'ACRUX',
-    lpAddresses: {
-      97: '',
-      56: '', // ACRUX-BUSD LP
-    },
-    tokenSymbol: 'ACRUX',
-    tokenAddresses: {
-      97: '',
-      56: '0x62a6eC9F76e4c5D7a8a172f9A984eaaa880A1Ce0',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 13,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'BUSD',
@@ -226,6 +210,23 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },  
+  {
+    pid: 13,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'ACRUX',
+    lpAddresses: {
+      97: '',
+      56: '', // ACRUX-BUSD LP
+    },
+    tokenSymbol: 'ACRUX',
+    tokenAddresses: {
+      97: '',
+      56: '0x62a6eC9F76e4c5D7a8a172f9A984eaaa880A1Ce0',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
